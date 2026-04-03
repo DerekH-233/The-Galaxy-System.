@@ -1,0 +1,5 @@
+{
+  "name": "Orbital Explorer",
+  "description": "An immersive space app to explore planets, their satellites, and human landing sites with real-time orbital simulations.",
+  "requestFramePermissions": []
+}
