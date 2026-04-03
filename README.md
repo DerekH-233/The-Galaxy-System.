@@ -1,9 +1,5 @@
 # Galaxy Simulation | 星系模拟
 
-\<p align="center"\>
-\<img src="[https://github.com/user-attachments/assets/258dd114-2523-44b3-b80e-b728e262f770](https://github.com/user-attachments/assets/258dd114-2523-44b3-b80e-b728e262f770)" width="100%" alt="Galaxy Simulation Preview"\>
-\</p\>
-
 一个基于 Google AI Studio App 制作功能快速构建的星系交互模拟原型。本项目旨在通过简洁的代码逻辑，实现基础的天体运行视觉效果与信息展示。
 
 > **开发周期**：约 30 分钟（快速原型验证）  
