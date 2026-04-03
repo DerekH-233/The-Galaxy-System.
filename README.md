@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Galaxy Simulation | 星系模拟
+一个基于 Google AI Studio App 制作功能快速构建的星系交互模拟原型。本项目旨在通过简洁的代码逻辑，实现基础的天体运行视觉效果与信息展示。
 
-# Run and deploy your AI Studio app
+开发周期：约 30 分钟（快速原型验证）
 
-This contains everything you need to run your app locally.
+核心工具：Google AI Studio
 
-View your app in AI Studio: https://ai.studio/apps/e6007f18-ea47-42ba-97f2-b785f5babca1
+🚀 主要功能
+星系动力学模拟：基础的天体轨道运行与视觉呈现。
 
-## Run Locally
+交互式信息层：支持显示天体名称及简短的文本介绍。
 
-**Prerequisites:**  Node.js
+动态视觉：包含自定义的交互反馈与转场动画。
 
+⚠️ 性能与兼容性警告 (Critical)
+由于本项目处于快速原型阶段，完全未进行功耗与渲染性能优化：
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+设备建议：仅建议在 PC 端浏览器访问。
+
+移动端表现：在移动端打开会导致严重卡顿，甚至引起浏览器无响应。
+
+渲染负载：当前版本存在较高的 CPU/GPU 占用，不建议长时间后台运行。
+
+🛠 已知缺陷与待办 (Known Issues)
+目前项目存在以下待解决的技术债务，欢迎提交 Issue 或 PR：
+
+UI 遮挡 Bug：在特定分辨率或缩放比例下，交互界面可能出现层级遮挡。
+
+动画逻辑：部分动画曲线（Easing）尚未精修，存在不符合物理直觉的视觉反馈。
